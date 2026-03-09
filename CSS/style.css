@@ -20,3 +20,32 @@ header{
 .container main img{
 	width: 60%;
 }
+
+.Menu ul li a{
+	background: white;
+	text-decoration:none;
+	display:inline-block;
+	padding: 16px;
+}
+
+.Menu ul{
+	list-style:none;
+}
+
+.Menu ul li{
+	float: left;
+}
+
+main{
+	clear:both;
+}
+
+.Menu ul li a:hover{
+	background: black;
+	color: white;
+}
+
+.container main img{
+    width: 40%;
+    height: auto;
+}
